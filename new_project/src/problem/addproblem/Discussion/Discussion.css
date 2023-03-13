@@ -1,0 +1,27 @@
+.outset {
+    border-style: outset;
+    margin-bottom: 30px;
+}
+.username{
+    margin: 30px;
+    font-size: 12px;
+}
+.Discont{
+    margin-top: 20px;
+    margin-left: 7px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.Discuss{
+    border-style: inset;
+    margin: 20px;
+}
+#w3review{
+    border-style: groove;
+    width: 691px;
+    resize: none;
+    height: 111px;
+}
+#w3review::placeholder{
+    text-align: center;
+}

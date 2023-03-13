@@ -1,0 +1,119 @@
+.con-acc{
+    display: flex;
+    position: relative;
+    /* margin: 20px 20px; */
+    justify-items: center;
+    margin: 30px 13.5%;
+    /* height: max-content; */
+}
+.con-main{
+    display: flexbox;
+    border: 2px;
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+.overflow{
+    overflow-y: scroll;
+    height: 137px;
+}
+
+.con-det{
+    display: flex;
+    width: 178px;
+}
+.con-det1{
+    margin: 20px 20px;
+}
+.Easy{
+    background-color: rgba(45,181,93,.15);
+    min-height: 5px;
+    min-width: 200px;
+    /* position: absolute; */
+}
+.Easy1{
+    background-color: lightgreen;
+    min-height: 5px;
+    top: -5px;
+    position: relative;
+    width: 0px;
+}
+.Medium{
+    background-color:#f3bea8;
+    min-height: 5px;
+    min-width: 200px;
+    /* position: absolute; */
+}
+.Medium1{
+    background-color: rgb(243, 113, 21);
+    min-height: 5px;
+    top: -5px;
+    position: relative;
+    width: 0px;
+}
+.Hard{
+    background-color: rgb(244, 153, 153);
+    min-height: 5px;
+    min-width: 200px;
+    /* position: absolute; */
+}
+.Hard1{
+    background-color: rgb(255, 13, 13);
+    min-height: 5px;
+    top: -5px;
+    position: relative;
+    width: 0px;
+}
+.solved{
+    /* height: 200px; */
+    position: relative;
+    align-items: stretch;
+    height: 25em;
+}
+.box-acc{
+    margin: 20px 6px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: lightgray;
+    padding: 20px 20px;
+    line-height: 40px;
+}
+.nosol{
+    position: absolute;
+    top: 50px;
+    left: 61px;
+}
+.chart{
+    margin: 40px 135px;
+    text-align: center;
+    line-height: 60px;
+}
+.recent{
+    margin: 30px 13%;
+}
+.Skill{
+    position:absolute;
+    top: 10em;
+}
+.skillsitems{
+    text-align: center;
+    border: 2px solid black;
+    width: 11em;
+    background-color: rgb(191, 230, 230);
+    border-radius: 20px;
+    margin: 4px 0px;
+}
+.addskillsinput{
+    padding: 7px 9px;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+}
+.addskills{
+    margin-left: 20px;
+}
+.Skills{
+    max-height: 20px;
+}
